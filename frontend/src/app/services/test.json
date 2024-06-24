@@ -1,0 +1,201 @@
+{
+  "nav": {
+    "name": "Ariel Andrade",
+    "picture": "assets/img/profile_picture_adjusted.png",
+    "citation": {
+      "caption": "Stay hungry, stay foolish.",
+      "author": "- Steve Jobs"
+    },
+    "socials": [
+      {
+        "href": "https://www.linkedin.com/in/ariellima/",
+        "alt": "LinkedIn",
+        "src": "assets/img/linkedin.png"
+      },
+      {
+        "href": "https://github.com/sudoariel",
+        "alt": "GitHub",
+        "src": "assets/img/github.png"
+      },
+      {
+        "href": "https://www.facebook.com/ariel.lima.andrade/",
+        "alt": "Facebook",
+        "src": "assets/img/facebook.png"
+      },
+      {
+        "href": "https://www.instagram.com/im.ariel/",
+        "alt": "Instagram",
+        "src": "assets/img/instagram.png"
+      }
+    ]
+  },
+  "content": {
+    "sections": [
+      {
+        "section": {
+          "id": "about_me",
+          "firstname": "ARIEL",
+          "lastname": "ANDRADE",
+          "src": "assets/img/console.png",
+          "typedtext": []
+        }
+      },
+      {
+        "section": {
+          "id": "my_skills",
+          "title": "MY SKILLS",
+          "cards": [
+            {
+              "id": "android_platform",
+              "title": "Android Platform Developer",
+              "alt": "Android Platform",
+              "src": "assets/img/android3.png",
+              "item": [
+                "AOSP Blueprint",
+                "Android Automotive OS",
+                "Android System services development (Binder/AIDL)",
+                "Java/Kotlin system application development for Android Automotive"
+              ]
+            },
+            {
+              "id": "android",
+              "title": "Android Developer",
+              "alt": "Android",
+              "src": "assets/img/android2.png",
+              "item": [
+                "Mobile app development in Java/Kotlin",
+                "Android Architecture patterns",
+                "Android SDK/NDK"
+              ]
+            },
+            {
+              "id": "python",
+              "title": "Python Developer",
+              "alt": "Python",
+              "src": "assets/img/python.png",
+              "item": [
+                "Machine Learning and Deep Learning algorithms",
+                "Simulator development using pygame",
+                "Data analysis",
+                "Digital Signal Processing algorithms"
+              ]
+            },
+            {
+              "id": "c_cpp",
+              "title": "C/C++ Developer",
+              "alt": "C/C++",
+              "src": "assets/img/cpp.png",
+              "item": [
+                "Low-level library development",
+                "Embedded systems",
+                "Arduino and Raspberry Pi prototypes"
+              ]
+            },
+            {
+              "id": "c_sharp",
+              "title": "C# Developer",
+              "alt": "C#",
+              "src": "assets/img/c-sharp.png",
+              "item": [
+                "Application Development for Windows OS with WPF",
+                "Engineering tools development",
+                "MySQL database",
+                "Windows API"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "section": {
+          "id": "work_experience",
+          "title": "WORK EXPERIENCE",
+          "containers": [
+            {
+              "position": "left",
+              "we_date": "Sep 2023 - Now",
+              "alt": "Volvo CE Logo",
+              "src": "assets/img/volvo.png",
+              "c_title": "Senior Android Platform Engineer",
+              "c_subtitle": "Volvo Construction Equipment"
+            },
+            {
+              "position": "right",
+              "we_date": "Mar 2022 - Aug 2023",
+              "alt": "Volvo CE Logo",
+              "src": "assets/img/volvo.png",
+              "c_title": "Android Platform Engineer",
+              "c_subtitle": "Volvo Construction Equipment"
+            },
+            {
+              "position": "left",
+              "we_date": "Aug 2021 - Feb 2022",
+              "alt": "Ford Motor Company Logo",
+              "src": "assets/img/ford.jpeg",
+              "c_title": "Android Automotive OS Developer",
+              "c_subtitle": "Ford Motor Company"
+            },
+            {
+              "position": "right",
+              "we_date": "Jul 2020 - Jul 2021",
+              "alt": "Ford Motor Company Logo",
+              "src": "assets/img/ford.jpeg",
+              "c_title": "Software Developer",
+              "c_subtitle": "Ford Motor Company"
+            }
+          ]
+        }
+      },
+      {
+        "section": {
+          "id": "education",
+          "title": "EDUCATION",
+          "containers": [
+            {
+              "position": "left",
+              "we_date": "2017 - 2023",
+              "alt": "UFBA Logo",
+              "src": "assets/img/ufba.png",
+              "c_title": "B.E. Computer Engineering",
+              "c_subtitle": "Federal University of Bahia (UFBA)"
+            },
+            {
+              "position": "right",
+              "we_date": "2014 - 2016",
+              "alt": "SENAI Cimatec Logo",
+              "src": "assets/img/senai_cimatec.jpeg",
+              "c_title": "A.S. Electrotechnology",
+              "c_subtitle": "SENAI Cimatec"
+            }
+          ]
+        }
+      },
+      {
+        "section": {
+          "id": "projects",
+          "title": "PROJECTS",
+          "projects": [
+            {
+              "position": "left",
+              "title": "Timezone Travel Calculator",
+              "src": "assets/img/turing_machine.png",
+              "description": "Turing machine that calculates arrival time based on departure longitude, departure time, arrival longiture, travel time and direction."
+            },
+            {
+              "position": "center",
+              "title": "Android Emulator Microphone Stabilizer",
+              "src": "assets/img/mic-stabilizer.png",
+              "description": "This is a tool to avoid Android Emulator changing the host machine microphone volume randomly causing undesirable noises on Ubuntu 20.04."
+            },
+            {
+              "position": "right",
+              "title": "AOSP Android HAL",
+              "src": "assets/img/turing_machine.png",
+              "description": "Investigating and discovering Android HAL."
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

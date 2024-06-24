@@ -1,0 +1,15 @@
+<section id="{{PageInfo?.id}}" class="aftertw scroll-element"  [ngClass]="{'delayed-style': showPage}">
+    <h1 class="titlehead">
+        {{PageInfo?.title}}
+    </h1>
+    <div class="we_timeline">
+        <div *ngFor="let education of PageInfo?.containers" class="we_container {{education.position}}">
+            <div class="we_date_education">{{education.we_date}}</div>
+            <img class="icon" alt="{{education.alt}}" src="{{education.src}}" loading="lazy" >
+            <div class="we_content">
+                <h2>{{education.c_title}}</h2>
+                <h3>{{education.c_subtitle}}</h3>
+            </div>
+        </div>        
+    </div>
+</section>

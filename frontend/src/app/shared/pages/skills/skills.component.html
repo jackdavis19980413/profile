@@ -1,0 +1,14 @@
+<section id="{{PageInfo?.id}}" class="aftertw scroll-element" [ngClass]="{'delayed-style': showPage}">
+    <h1 class="titlehead">
+        {{PageInfo?.title}}
+    </h1>
+    <div id="skills_grid_view" class="skill-cards">
+        <div *ngFor="let card of PageInfo?.cards" id="{{card.id}}_development" class="card">
+            <h3 class="card_title">{{card.title}}</h3>
+            <img id="{{card.id}}" alt="{{card.alt}}" src="{{card.src}}" class="card_logo" loading="lazy">
+            <ul class="card_list">
+                <li *ngFor="let list of card.item">{{list}}</li>
+            </ul>
+        </div>
+    </div>
+</section>

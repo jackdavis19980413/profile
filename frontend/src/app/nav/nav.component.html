@@ -1,0 +1,28 @@
+<nav id="mysidenav" class="sidenav">
+    <div id="mysidenavcontent" class="sidenavcontent">
+        <img src="{{navInfo?.picture}}" alt="Profile picture" class="profile-picture">
+        <p class="sidebarname">{{navInfo?.name}}</p>
+        <hr>
+        <p class="sidebarcitation">{{navInfo?.citation?.caption}}</p>
+        <p class="sidebarauthor">{{navInfo?.citation?.author}}</p>
+        <hr>
+        <div class="row">
+            <div class="column" *ngFor="let social of navInfo?.socials">
+                <a href="{{social.href}}" target="_blank">
+                    <img id="{{social.alt.toLowerCase()}}" src="{{social.src}}" (mouseover)="selected(social.alt.toLowerCase())" (mouseout)="unselected(social.alt.toLowerCase())" alt="Go to {{social.alt}} profile" class="mediaicon" loading="lazy"> 
+                </a>
+            </div>
+        </div>
+
+        <div class="nav_btns">
+            <button *ngFor="let navbtn of pageLayout?.navbtns" id="{{navbtn.id}}" (click)="navScroll(navbtn.id)">{{navbtn.label}}</button><br>
+        </div>
+        
+        <div class="nav_bottom_btns">
+            <div *ngFor="let navbottombtn of pageLayout?.navbottombtns" class="column_button">
+                <button (click)="hyperLink(navbottombtn.href)" id="{{navbottombtn.id}}">{{navbottombtn.label}}</button>
+            </div>
+        </div>
+
+    </div>
+</nav>

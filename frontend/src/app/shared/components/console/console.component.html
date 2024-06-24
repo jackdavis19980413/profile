@@ -1,0 +1,4 @@
+<div class="container">
+    <img id="console" class="console_img" (load)="onImageLoad($event)" src="{{aboutMe?.src}}" loading="lazy">
+    <div id="typedtext" class="typedtextclass" [innerHTML]="sContents"></div>
+</div>
